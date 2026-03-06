@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-06T08:49:43 IST" name="Default suite" finished-at="2026-03-06T08:50:33 IST" duration-ms="49393">
+  <suite started-at="2026-03-06T09:16:14 IST" name="Default suite" finished-at="2026-03-06T09:17:03 IST" duration-ms="48876">
     <groups>
     </groups>
-    <test started-at="2026-03-06T08:49:43 IST" name="Default test" finished-at="2026-03-06T08:50:33 IST" duration-ms="49393">
+    <test started-at="2026-03-06T09:16:14 IST" name="Default test" finished-at="2026-03-06T09:17:03 IST" duration-ms="48876">
       <class name="TestScript.ArticleScript">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T08:49:43 IST" name="setup" finished-at="2026-03-06T08:49:50 IST" duration-ms="6704" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T09:16:14 IST" name="setup" finished-at="2026-03-06T09:16:20 IST" duration-ms="6067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:1, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T08:49:50 IST" name="logintest" finished-at="2026-03-06T08:49:51 IST" duration-ms="1352" status="PASS">
+        <test-method signature="logintest()[pri:1, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T09:16:21 IST" name="logintest" finished-at="2026-03-06T09:16:22 IST" duration-ms="1465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method signature="newarticletest()[pri:2, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T08:49:51 IST" name="newarticletest" finished-at="2026-03-06T08:49:52 IST" duration-ms="987" status="PASS">
+        <test-method signature="newarticletest()[pri:2, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T09:16:22 IST" name="newarticletest" finished-at="2026-03-06T09:16:23 IST" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newarticletest -->
-        <test-method signature="EditArticleTest()[pri:3, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T08:49:52 IST" name="EditArticleTest" finished-at="2026-03-06T08:50:12 IST" duration-ms="20096" status="FAIL">
+        <test-method signature="EditArticleTest()[pri:3, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T09:16:23 IST" name="EditArticleTest" finished-at="2026-03-06T09:16:43 IST" duration-ms="20074" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()= ' Edit Article']"}
@@ -28,9 +28,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53cf069a1092a406abcd30fd42ad6c8d, findElement {using=xpath, value=//a[text()= ' Edit Article']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51162}, goog:processID: 10776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51162/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53cf069a1092a406abcd30fd42ad6c8d]]>
+Command: [4818163d3dcc52cb84776a41fdece2fe, findElement {value=//a[text()= ' Edit Article'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52670}, goog:processID: 9912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52670/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4818163d3dcc52cb84776a41fdece2fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()= ' Edit Article']"}
@@ -39,9 +39,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53cf069a1092a406abcd30fd42ad6c8d, findElement {using=xpath, value=//a[text()= ' Edit Article']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51162}, goog:processID: 10776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51162/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53cf069a1092a406abcd30fd42ad6c8d
+Command: [4818163d3dcc52cb84776a41fdece2fe, findElement {value=//a[text()= ' Edit Article'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52670}, goog:processID: 9912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52670/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4818163d3dcc52cb84776a41fdece2fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -97,7 +97,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditArticleTest -->
-        <test-method signature="DeleteArticleTest()[pri:4, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T08:50:12 IST" name="DeleteArticleTest" finished-at="2026-03-06T08:50:33 IST" duration-ms="20096" status="FAIL">
+        <test-method signature="DeleteArticleTest()[pri:4, instance:TestScript.ArticleScript@212b5695]" started-at="2026-03-06T09:16:43 IST" name="DeleteArticleTest" finished-at="2026-03-06T09:17:03 IST" duration-ms="20130" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),' Delete Article')]"}
@@ -106,9 +106,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53cf069a1092a406abcd30fd42ad6c8d, findElement {using=xpath, value=//button[contains(text(),' Delete Article')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51162}, goog:processID: 10776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51162/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53cf069a1092a406abcd30fd42ad6c8d]]>
+Command: [4818163d3dcc52cb84776a41fdece2fe, findElement {value=//button[contains(text(),' Delete Article')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52670}, goog:processID: 9912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52670/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4818163d3dcc52cb84776a41fdece2fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),' Delete Article')]"}
@@ -117,9 +117,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53cf069a1092a406abcd30fd42ad6c8d, findElement {using=xpath, value=//button[contains(text(),' Delete Article')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51162}, goog:processID: 10776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51162/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53cf069a1092a406abcd30fd42ad6c8d
+Command: [4818163d3dcc52cb84776a41fdece2fe, findElement {value=//button[contains(text(),' Delete Article')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52670}, goog:processID: 9912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52670/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4818163d3dcc52cb84776a41fdece2fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)

@@ -37,8 +37,8 @@ public class ArticleScript {
 	
 	@Test(priority = 2)
 	public void newarticletest() {
-		strT = "Go Lang" + String.valueOf(artNum);
-		newarticle.articleinput(strT, "Go Language", "Go Language by Google", "#GoGoogle");
+		strT = "Selenium" + String.valueOf(artNum);
+		newarticle.articleinput(strT, "Selenium Training", "Selenium WebDriver Training", "#Selenium");
 	}
 	
 	@Test(priority = 3)
