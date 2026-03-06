@@ -34,8 +34,9 @@ public class EditArticle {
 	}
 	public void updatearticle(String strtitle) {
 		editarticle.click();
-		articletitle.click();
-		articletitle.sendKeys(strtitle);
+//		articletitle.click();
+		articletitle.clear();
+		articletitle.sendKeys("Updated Selenium");
 		updatearticle.click();
 	}
 	

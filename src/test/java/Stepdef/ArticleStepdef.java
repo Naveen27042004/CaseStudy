@@ -49,10 +49,11 @@ public void user_in_home_page() {
 public void user_create_new_article(String articletitle, String articledescription, String articlemain, String articletag) {
     newarticle.articleinput(articletitle, articledescription, articlemain, articletag);
 }
-@Then("Article is created {string}")
+@Then("Article is Created {string}")
 public void article_is_created(String strtitle) throws InterruptedException {
     Assert.assertTrue(newarticle.articlecreated(strtitle));
 }
+
 
 
 @When("User updates article")
@@ -62,7 +63,7 @@ public void user_updates_article(io.cucumber.datatable.DataTable dataTable) thro
 	editarticle.Articleupdate(title);
 }
 
-@Then("Article is Updated {string}")
+@Then("Article is Updated")
 public void article_is_updated(String strtitle) throws InterruptedException {
     Assert.assertTrue(editarticle.Articleupdate(strtitle));
 }

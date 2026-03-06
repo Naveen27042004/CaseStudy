@@ -1,5 +1,7 @@
 package TestScript;
 
+import java.util.Random;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -16,8 +18,8 @@ public class ArticleScript {
 	NewArticle newarticle;
 	EditArticle editarticle;
 	DeleteArticle deletearticle;
-	int artNum = 44, artNum1=404;
-	String strT;
+	int num=04 ;
+	String strTit;
 	
 	@BeforeTest
 	public void setup() {
@@ -37,19 +39,22 @@ public class ArticleScript {
 	
 	@Test(priority = 2)
 	public void newarticletest() {
-		strT = "Selenium" + String.valueOf(artNum);
-		newarticle.articleinput(strT, "Selenium Training", "Selenium WebDriver Training", "#Selenium");
+		strTit = "Selenium" + String.valueOf(num);
+		newarticle.articleinput(strTit, "Selenium Training", "Selenium WebDriver Training", "#Selenium");
+		System.out.println("Article Created Succefully " + strTit);
 	}
 	
 	@Test(priority = 3)
 	public void EditArticleTest() throws InterruptedException{
-		strT = "Go Lang"+String.valueOf(artNum1);
-		editarticle.updatearticle(strT);
+		strTit = "Selenium Webdriver";
+		editarticle.updatearticle(strTit);
+		System.out.println("Article Updated Successfully " + strTit);
 	}
 	
 	@Test(priority = 4)
 	
 	public void DeleteArticleTest() throws InterruptedException{
-		deletearticle.removeArticle(strT);
+		deletearticle.removeArticle(strTit);
+		System.out.println(strTit + " Article Deleted Successfully");
 	}
 }

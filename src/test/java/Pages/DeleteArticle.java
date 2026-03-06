@@ -14,8 +14,8 @@ public class DeleteArticle {
 	@FindBy(xpath="//button[contains(text(),' Delete Article')]")
 	WebElement deletearticle;
 	
-	@FindBy(xpath="//button[contains(text(),' Delete Article')]")
-	WebElement feed;
+//	@FindBy(xpath="//button[@class='nav-link ']")
+//	WebElement feed;
 	
 	@FindAll(@FindBy(tagName="hi"))
 	List<WebElement> tag;
@@ -33,10 +33,9 @@ public class DeleteArticle {
 		
 		
 		Alert deletealert = driver.switchTo().alert();
-		((Alert) deletearticle).accept();
+		deletealert.accept();
 		
-		driver.switchTo().window(parentwindow);
-		feed.click();
+		
 				
 	}
 	
@@ -45,7 +44,7 @@ public class DeleteArticle {
 		for(int i=0 ; i<tag.size() ; i++) {
 			tmptitle1 = tag.get(i).getText();
 			if(!tmptitle1.equalsIgnoreCase(title)) {
-				System.out.println("Article Deletion is Successfull");
+				System.out.println("Deletion is Successfull");
 				return true;
 			}
 		}
