@@ -5,9 +5,7 @@
     <classes>
       <class name="TestScript.ArticleScript">
         <methods>
-          <include name="newarticletest"/>
           <include name="setup"/>
-          <include name="logintest"/>
           <include name="EditArticleTest"/>
           <include name="DeleteArticleTest"/>
         </methods>

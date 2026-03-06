@@ -23,10 +23,10 @@ public class NewArticle {
 	@FindBy(xpath = "//textarea[@name='body']")
 	WebElement articlemain;
 	
-	@FindBy(xpath = "//input[@name='tags]")
+	@FindBy(xpath = "//input[@name='tags']")
 	WebElement articletag;
 	
-	@FindBy(xpath = "//button[@type='submit]")
+	@FindBy(xpath = "//button[@type='submit']")
 	WebElement publisharticle;
 	
 	@FindBy(tagName = "h1")

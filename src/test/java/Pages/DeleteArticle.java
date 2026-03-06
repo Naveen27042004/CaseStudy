@@ -11,10 +11,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DeleteArticle {
 	WebDriver driver;
-	@FindBy(xpath="//button[contains(text(),'Delete Article')]")
+	@FindBy(xpath="//button[contains(text(),' Delete Article')]")
 	WebElement deletearticle;
 	
-	@FindBy(xpath="//button[@class='nav-link']")
+	@FindBy(xpath="//button[contains(text(),' Delete Article')]")
 	WebElement feed;
 	
 	@FindAll(@FindBy(tagName="hi"))

@@ -14,7 +14,7 @@ public class LoginPage {
 	@FindBy(name="password")
 	WebElement password;
 	
-	@FindBy(xpath = "//button[contains(text(),'Login)]")
+	@FindBy(xpath = "//button[contains(text(),'Login')]")
 	WebElement loginbtn;
 	
 	@FindBy(linkText = "New Article")

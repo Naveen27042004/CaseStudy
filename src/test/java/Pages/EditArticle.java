@@ -14,10 +14,10 @@ public class EditArticle {
 	WebDriver driver;
 	WebDriverWait expWait;
 	
-	@FindBy(xpath="//a[text()= 'Edit Article']")
+	@FindBy(xpath="//a[text()= ' Edit Article']")
 	WebElement editarticle;
 	
-	@FindBy(xpath = "//input[@name='title]")
+	@FindBy(xpath = "//input[@name='title']")
 	WebElement articletitle;
 	
 	@FindBy(xpath="//button[@type='submit']")
